@@ -1,3 +1,5 @@
+
+/*-------first phase----------*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -30,16 +32,78 @@ ul, .text {
     gap: 16px;
     font-size: 18px;
     color: #e5e7eb;
-    /* margin: 0;
-    padding: 0; */
+    padding: 0;
+}
+
+.text {
+    margin-bottom: 8px;
 }
 
 .modal {
+    padding: 16px;
     width: 400px;
 }
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
 
 a {
     text-decoration: none;
 }
 
-/*-----------------------------------------*/
+/*---------------second phase--------------------------*/
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.right img {
+    width: 340px;
+    height: 170px;
+}
+
+.topmid {
+    text-align: center;
+    padding: 100px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight:900;
+    margin-bottom: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+
+}
+
+.info {
+    max-width: 200px;
+}
+
+/*----------------third phase-----------------*/
+
+.botmid {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: #e5e7eb;
+    padding: 38px;
+}
+
+.fbody {
+    width: 300px;
+}
+
