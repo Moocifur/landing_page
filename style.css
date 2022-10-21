@@ -1,24 +1,34 @@
+body {
+    margin: 0; /*removes invis space on whole page */
+}
 
 /*-------first phase----------*/
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
-    margin-left: 80px;
-    margin-right: 80px;
+
+.hero { /*affects the whole first phase */
+    background-color: #1f2937;/* changes color */
+    display: flex; /* activates flex */
+    flex-direction: column; /* flexes the two items as colums */
+    
 }
 
-.hero {
-    background-color: #1f2937;
+
+.header { /*affects left and right items */
     display: flex;
-    flex-direction: column;
+    align-items: center; /*centers left rigfht items up/down */
+    margin-bottom: 80px; /* creates space under ityems */
+    justify-content: center; /* puts the items to center */
+    
 }
 
-.logo {
+
+
+.logo { /* affects header logo*/
+    margin-right: 230px; /* creates space between the logo and the links */
     font-size: 24px;
     color: #e5e7eb
 }
+
+
 
 .titleone {
     font-weight: bolder;
@@ -45,7 +55,7 @@ ul, .text {
 }
 
 button {
-    padding: 8px 16px;
+    padding: 8px 20px;
     border-radius: 8px;
     background: royalblue;
     border: 1px solid royalblue;
@@ -55,6 +65,7 @@ button {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 /*---------------second phase--------------------------*/
@@ -104,6 +115,15 @@ img {
 }
 
 .fbody {
-    width: 300px;
+    width: 550px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    
+}
+
+.quote {
+    font-weight: bold;
+    margin-left: 300px;
 }
 
