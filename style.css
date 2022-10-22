@@ -127,3 +127,34 @@ img {
     margin-left: 300px;
 }
 
+/*-----------phase 4-----------------*/
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+    background: royalblue;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding:28px;
+    display: flex;
+    width: 700px;
+}
+
+.call {
+    font-weight: bolder;
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.other {
+    color: #e5e7eb;
+}
+
+.signdown {
+    margin-left: 60px;
+}
+
