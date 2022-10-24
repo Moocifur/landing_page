@@ -142,6 +142,7 @@ img {
     padding:28px;
     display: flex;
     width: 700px;
+    border-radius: 10px;
 }
 
 .call {
@@ -156,5 +157,17 @@ img {
 
 .signdown {
     margin-left: 60px;
+    border: 2px solid #f9faf8;
+}
+
+/*---------------------------------------------*/
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px;
 }
 
