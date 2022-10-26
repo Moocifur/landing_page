@@ -1,5 +1,7 @@
 body {
     margin: 0; /*removes invis space on whole page */
+    padding: 0; /*i see others do, but i dont see it*/
+    margin: 0; /*i see others do but i don t get */
 }
 
 /*-------first phase----------*/
@@ -11,8 +13,19 @@ body {
     
 }
 
+/* the left side */
+.navbar { /*affects left and right items */
+    display: flex;
+    align-items: center; /*centers left rigfht items up/down */
+    margin-bottom: 80px; /* creates space under ityems */
+    justify-content: space-between;
+    padding: 16px;
+    
+}
 
-.header { /*affects left and right items */
+
+
+.headertwo { /*affects left and right items */
     display: flex;
     align-items: center; /*centers left rigfht items up/down */
     margin-bottom: 80px; /* creates space under ityems */
