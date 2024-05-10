@@ -1,12 +1,9 @@
 body {
-    margin: 0; /*removes invis space on whole page */
-    padding: 0; /*i see others do, but i dont see it*/
-    margin: 0; /*i see others do but i don t get */
+    margin: 0; 
+    padding: 0; 
 }
 
-/*-------first phase----------*/
-
-.hero { /*affects the whole first phase */
+.hero {
     background-color: #1f2937;/* changes color */
     display: flex; /* activates flex */
     flex-direction: column; /* flexes the two items as colums */
@@ -89,8 +86,8 @@ img {
 }
 
 .right img {
-    width: 340px;
-    height: 170px;
+    width: auto;
+    height: 400px;
 }
 
 .topmid {
