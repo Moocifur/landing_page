@@ -4,17 +4,16 @@ body {
 }
 
 .hero {
-    background-color: #1f2937;/* changes color */
-    display: flex; /* activates flex */
-    flex-direction: column; /* flexes the two items as colums */
+    background-color: #1f2937;
     
+    display: flex;
+    flex-direction: column;
 }
 
-/* the left side */
-.navbar { /*affects left and right items */
+.navbar {
     display: flex;
-    align-items: center; /*centers left rigfht items up/down */
-    margin-bottom: 80px; /* creates space under ityems */
+    align-items: center;
+    margin-bottom: 80px;
     justify-content: space-between;
     padding: 16px;
     
@@ -40,7 +39,7 @@ body {
 
 
 
-.titleone {
+.about-header {
     font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
@@ -59,7 +58,7 @@ ul, .text {
     margin-bottom: 8px;
 }
 
-.modal {
+.about-me {
     padding: 16px;
     width: 400px;
 }
